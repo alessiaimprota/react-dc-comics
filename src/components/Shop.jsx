@@ -1,29 +1,35 @@
+import ImgDigitalComic from "../assets/img/buy-comics-digital-comics.png";
+import ImgDcMerch from "../assets/img/buy-comics-merchandise.png";
+import ImgSubscriptions from "../assets/img/buy-comics-subscriptions.png";
+import ImgComicShopLocator from "../assets/img/buy-comics-shop-locator.png";
+import ImgDcPowerVisa from "../assets/img/buy-dc-power-visa.svg";
+
 function Shop() {
   const ShopMain = [
     {
       id: 1,
       type: "DIGITAL COMICS",
-      img: "../assets/img/buy-comics-digital-comics.png",
+      img: ImgDigitalComic,
     },
     {
       id: 2,
       type: "DC MERCHANDISE",
-      img: "../assets/img/buy-comics-merchandise.png",
+      img: ImgDcMerch,
     },
     {
       id: 3,
       type: "SUBSCRIPTION",
-      img: "../assetsimg/buy-comics-subscriptions.png",
+      img: ImgSubscriptions,
     },
     {
       id: 4,
       type: "COMIC SHOP LOCATOR",
-      img: "../assets/img/buy-comics-subscriptions.png",
+      img: ImgComicShopLocator,
     },
     {
       id: 5,
       type: "DC POWER VISA",
-      img: "../assets/img/buy-dc-power-visa.svg",
+      img: ImgDcPowerVisa,
     },
   ];
 
