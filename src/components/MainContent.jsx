@@ -1,10 +1,11 @@
-function MainContent() {
+import Jumbo from "./Jumbo";
 
+function MainContent() {
   return (
     <>
-      <h2>Main</h2>
+      <Jumbo />
     </>
-  )
+  );
 }
 
-export default MainContent
+export default MainContent;
