@@ -1,4 +1,5 @@
 import Jumbo from "./Jumbo";
+import Shop from "./Shop";
 import WrapperCards from "./WrapperCards";
 
 function MainContent() {
@@ -6,6 +7,7 @@ function MainContent() {
     <>
       <Jumbo />
       <WrapperCards />
+      <Shop />
     </>
   );
 }

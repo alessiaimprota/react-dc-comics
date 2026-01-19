@@ -5,7 +5,7 @@ function WrapperCards() {
     return (
       <div className="card" key={comic.id}>
         <a href="">
-          <img src={comic.thumb} alt="" />
+          <img src={comic.thumb} alt={comic.title} />
           <span>{comic.title}</span>
         </a>
       </div>
