@@ -5,7 +5,6 @@ function WrapperCards() {
   const ComicsList = comics.map((comic) => {
     return (
       <Card
-        id={comic.id}
         key={comic.id}
         thumb={comic.thumb}
         title={comic.title}
