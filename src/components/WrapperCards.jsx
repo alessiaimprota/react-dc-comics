@@ -1,18 +1,19 @@
-import comics from "../data/comics";
+import comics from "../data/comics.js";
+import Card from "./Card";
 
 function WrapperCards() {
   const ComicsList = comics.map((comic) => {
     return (
-      <div className="card" key={comic.id}>
-        <a href="">
-          <img src={comic.thumb} alt={comic.title} />
-          <span>{comic.title}</span>
-        </a>
-      </div>
+      <Card
+        id={comic.id}
+        key={comic.id}
+        thumb={comic.thumb}
+        title={comic.title}
+        titlefun={comic.title}
+      />
     );
   });
-
-  return <div className="Wrappercards">{ComicsList}</div>;
+  return <div className="cards-container">{ComicsList}</div>;
 }
 
 export default WrapperCards;

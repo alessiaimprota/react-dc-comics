@@ -1,10 +1,6 @@
+import FooterLinks from "./FooterLinks";
+
 function MainFooter() {
-
-  return (
-    <>
-      <h3>Footer</h3>
-    </>
-  )
+  <FooterLinks />;
 }
-
-export default MainFooter
+export default MainFooter;
